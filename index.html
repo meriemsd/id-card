@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Card</title>
+</head>
+<body>
+    
+
+    <div class="card">
+        <div class="pile">
+            <div class="borderr">
+                <div class="b1"><img src="pictures/circle.png" class="b1"></div>
+                <div class="b2"><img src="pictures/circle2.png" class="b2"></div>
+                <div class="bb1"><img src="pictures/bubbles.png" class="bb1"></div>
+                <div class="bb2"><img src="pictures/bubbles.png" class="bb2"></div>
+                <div class="name">
+                    <div class="m1"><img src="pictures/m1.png" class="m1"></div>
+                    <div class="e1"><img src="pictures/e1.png" class="e1"></div>
+                    <div class="r"><img src="pictures/r.png" class="r"></div>
+                    <div class="i"><img src="pictures/i.png" class="i"></div>
+                    <div class="e2"><img src="pictures/e2.png" class="e2"></div>
+                    <div class="m2"><img src="pictures/m2.png" class="m2"></div>
+                </div>
+            </div>
+        </div>
+        <div class="face">
+
+            <div class="c2"><img src="pictures/circle3.png" class="c2"></div>
+            <div class="nm">meriem</div>
+            <div class="picc"><img src="pictures/picc.jpg" class="picc"></div>
+            <div class="t1"><img src="pictures/t1.png" class="t1"></div>
+            <div class="t2"><img src="pictures/t2.png" class="t2"></div>
+            <div class="fm">saoud</div>
+
+            <div class="dev"><img src="pictures/dev.png" class="dev"></div>
+
+            <div class="cnt"><img src="pictures/contact.png" class="cnt"></div>
+
+        </div>
+
+    </div>
+
+        <div id="cr"><img src="pictures/cursor.png" id="cr"></div>
+
+    <script>
+        document.addEventListener('mousemove', function(e) {
+          var cr = document.getElementById('cr');
+          var x = e.clientX;
+          var y = e.clientY;
+          
+          
+          cr.style.left = x + 'px';
+          cr.style.top = y + 'px';
+        });
+    </script>
+
+
+    
+    
+</body>
+</html>
