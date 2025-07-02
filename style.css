@@ -126,6 +126,19 @@ body{
   }
 }
 
+.card{
+    animation: unflip 0.8s;
+}
+
+@keyframes unflip {
+  from {
+    transform: rotate3d(1, 1, 0, 180deg);
+  }
+  to {
+    transform: rotate3d(0, 0, 0, 180deg);
+  }
+}
+
 
 .c2{
     width: 210px;
